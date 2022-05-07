@@ -9,7 +9,9 @@ namespace snake_ladder_problem
             Console.WriteLine("Welcome to Snake ladder problem");
             snakeladder obj = new snakeladder();
             obj.Start();
-          
+            obj.rolldie();
+
+
         }
     }
 }
