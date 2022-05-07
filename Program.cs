@@ -10,6 +10,7 @@ namespace snake_ladder_problem
             snakeladder obj = new snakeladder();
             obj.Start();
             obj.rolldie();
+            obj.Check();
 
 
         }
