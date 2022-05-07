@@ -1,0 +1,13 @@
+/Users/saquib/Desktop/snake_ladder_problem/snake_ladder_problem/bin/Debug/netcoreapp3.1/snake_ladder_problem.deps.json
+/Users/saquib/Desktop/snake_ladder_problem/snake_ladder_problem/bin/Debug/netcoreapp3.1/snake_ladder_problem.runtimeconfig.json
+/Users/saquib/Desktop/snake_ladder_problem/snake_ladder_problem/bin/Debug/netcoreapp3.1/snake_ladder_problem.runtimeconfig.dev.json
+/Users/saquib/Desktop/snake_ladder_problem/snake_ladder_problem/bin/Debug/netcoreapp3.1/snake_ladder_problem.dll
+/Users/saquib/Desktop/snake_ladder_problem/snake_ladder_problem/bin/Debug/netcoreapp3.1/snake_ladder_problem.pdb
+/Users/saquib/Desktop/snake_ladder_problem/snake_ladder_problem/obj/Debug/netcoreapp3.1/snake_ladder_problem.csproj.AssemblyReference.cache
+/Users/saquib/Desktop/snake_ladder_problem/snake_ladder_problem/obj/Debug/netcoreapp3.1/snake_ladder_problem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/saquib/Desktop/snake_ladder_problem/snake_ladder_problem/obj/Debug/netcoreapp3.1/snake_ladder_problem.AssemblyInfoInputs.cache
+/Users/saquib/Desktop/snake_ladder_problem/snake_ladder_problem/obj/Debug/netcoreapp3.1/snake_ladder_problem.AssemblyInfo.cs
+/Users/saquib/Desktop/snake_ladder_problem/snake_ladder_problem/obj/Debug/netcoreapp3.1/snake_ladder_problem.csproj.CoreCompileInputs.cache
+/Users/saquib/Desktop/snake_ladder_problem/snake_ladder_problem/obj/Debug/netcoreapp3.1/snake_ladder_problem.dll
+/Users/saquib/Desktop/snake_ladder_problem/snake_ladder_problem/obj/Debug/netcoreapp3.1/snake_ladder_problem.pdb
+/Users/saquib/Desktop/snake_ladder_problem/snake_ladder_problem/obj/Debug/netcoreapp3.1/snake_ladder_problem.genruntimeconfig.cache
