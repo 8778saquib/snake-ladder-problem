@@ -11,7 +11,8 @@ namespace snake_ladder_problem
             obj.Start();
             obj.rolldie();
             obj.Check();
-
+          
+            obj.Repeat();
 
         }
     }
