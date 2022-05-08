@@ -13,9 +13,9 @@ namespace snake_ladder_problem
         int dice2;
         int playerposition1 = 0;
         int playerposition2 = 0;
-        //int playerposition3 = 0;
+        int playerposition3 = 0;
         int Noofdice;
-        //int Noofdiceroll;
+        int Noofdiceroll;
 
 
         Random random = new Random();
@@ -62,7 +62,15 @@ namespace snake_ladder_problem
                     break;
             }
         }
+
+
+
+
+
         //********************reapeat***********
+
+
+
         public void Repeat()
         {
             while (playerposition2 < 100)
@@ -92,7 +100,7 @@ namespace snake_ladder_problem
                         break;
 
                 }
-                Console.WriteLine("the present position of player3 {0}", playerposition2);
+                Console.WriteLine("the present position1 of player3 {0}", playerposition2);
 
 
 
@@ -100,11 +108,80 @@ namespace snake_ladder_problem
             Console.WriteLine("the end position of player{0}", playerposition2);
             Console.WriteLine("no of dice roll{0}:", Noofdice);
         }
+
+
+
+
         //****************exactwin*****************
 
+        public void Exactwin()
+        {
+            while (playerposition3 < 100)
+            {
+                Noofdiceroll++;
+                int num3 = random.Next(0, 2);
+                int dice3 = random.Next(1, 7);
+                switch (num3)
+                {
+
+
+                    case 0:
+                        if (playerposition3 < 100 && playerposition3 <= 94)
+                        {
+                            playerposition3 = playerposition3 + dice3;
+
+
+                            Console.WriteLine("the postion1 of player3 {0}", playerposition3);
+                        }
+
+
+                        else
+                        {
+
+                            Console.WriteLine("the postion02 of player3 {0}", playerposition3 = 100);
+                        }
+
+                        break;
+
+                    case 1:
+                        if (playerposition3 < 0)
+                        {
+                            Console.WriteLine("the postion3 of player3 {0}", playerposition3 = 0);
+                        }
+
+                        else if (0 <= playerposition3 && playerposition3 < 100)
+                        {
+                            playerposition3 = playerposition3 - dice3;
+
+                            Console.WriteLine("the postion4 of player3 if snake bite {0}", playerposition3);
+                        }
+
+                        else
+                        {
+
+                            Console.WriteLine("the postion5- of player3 {0}", playerposition3 = 100);
+
+                        }
+                        break;
+
+                }
+
+                Console.WriteLine("the present position of player3 {0}", playerposition3);
+            }
+
+
+            Console.WriteLine("the end position of player{0}", playerposition3);
+            Console.WriteLine("no of dice roll:{0}", Noofdiceroll);
 
 
 
+
+
+
+
+
+
+        }
     }
 }
 

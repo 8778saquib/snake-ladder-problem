@@ -13,6 +13,8 @@ namespace snake_ladder_problem
             obj.Check();
           
             obj.Repeat();
+           obj.Exactwin();
+
 
         }
     }
