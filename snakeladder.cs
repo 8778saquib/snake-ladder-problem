@@ -107,6 +107,7 @@ namespace snake_ladder_problem
             }
             Console.WriteLine("the end position of player{0}", playerposition2);
             Console.WriteLine("no of dice roll{0}:", Noofdice);
+
         }
 
 
@@ -174,11 +175,9 @@ namespace snake_ladder_problem
             Console.WriteLine("no of dice roll:{0}", Noofdiceroll);
 
 
-
-
-
-
-
+            // **************************** Win Postion & No of dice roll to win ***********************************************
+            Console.WriteLine("the win position of player{0}", playerposition3);
+            Console.WriteLine("no of dice roll to win:{0}", Noofdiceroll);
 
 
         }
